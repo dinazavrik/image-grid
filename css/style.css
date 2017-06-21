@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.ba-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ba-row {
+    height: auto;
+}
+
+.ba-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colum {
+    float: left;
+    border: 10px solid white;
+}
+
+.colum1 {
+    width: 200px;
+}
+
+.colum2 {
+    width: 300px;
+}
+
+.colum3 {
+    width: 400px;
+}
+
+.colum4 {
+    width: 500px;
+}
+
+.colum5 {
+    width: 600px;
+}
+
+.colum--border {
+    border: none;
+}
